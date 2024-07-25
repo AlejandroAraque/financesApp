@@ -46,3 +46,64 @@ nav a:hover {
 .container {
     padding: 20px;
 }
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8%;
+}
+
+.stat-box {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #87d792c4;
+    border-radius: 50px;
+    background-color: #fff;
+    width: 20%;
+}
+
+.table_center{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 27%;
+    border-collapse: collapse;
+}
+
+.table_center th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.table_center th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.table_center tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table_center tr:hover {
+    background-color: #ddd;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
